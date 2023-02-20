@@ -25,6 +25,7 @@ img{
 }
 
 .botonesheader{
+    max-width: 100%;
     grid-area: cabesera;
     background-color: #D9D9D9;
     border-radius: 8px;
@@ -49,6 +50,7 @@ section{
 }
 
 .busqueda{
+    max-width: 100%;
     background-color: #CAE2F4;
     width: 60px;
     border-radius: 10px;
@@ -87,13 +89,18 @@ input{
 }
 
 .apartamentos{
+    max-width: 100%;
     background-color: #D9D9D9;
     padding: 50px;
     margin: 75px;
 }
 
 .contenido{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 6px;
+    gap: 50px;
 }
 
 .imgApart{
@@ -103,30 +110,33 @@ input{
 
 .valor{
     background-color: white;
-    border-radius: 8px;
-    margin-right: 15px;
-    margin-left: 15px;
     text-align: center;
-    max-height: 50px;
+    border-radius: 8px;
+    width: 270px;
 }
 
 .datosApart{
     background-color: white;
-    border-radius: 8px;
     margin: center;
-    text-align: center;
-    max-height: 50px;
+    border-radius: 8px;
+    max-height: 100%;
+    width: 100;
 }
 
 .fav{
     background-color: white;
     border-radius: 8px;
-    margin-left: auto;
-    padding: 15px;
-    text-align: center;
-    max-height: 50px;
+    padding: 10px;
+    max-height: 100%;
 }
 
+.texto{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+}
 @media (min-width: 900px) {
     body{
         grid-template: 
@@ -134,19 +144,4 @@ input{
         "buscador"
         "contenido";
     }
-}
-
-.nav{
-    background-color: darkorange;
-    padding: 20px;
-    list-style: none;
-    text-align: center;
-}
-/*Fucionamos*/
-.nav li{
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px 0;
-    padding-left: 20px;
-    padding-right: 30px;
 }
