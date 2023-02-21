@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./admin.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Ventana principal ADMINS</title>
 </head>
 <body>
     <header>
-        <a href="">
+        <a class="botonesheader" href="">
             <img src="./img/home.webp" alt="imagen home">
         </a>
         <a class="botonesheader" href="">Nosotros</a>
@@ -23,24 +24,25 @@
                 <img class="busqueda" src="./img/iconSerch.webp" alt="icono de busqueda">
             </a>
 
-            <a class="selectores" href="">Ver mapa</a>
+            <a class="verMapa" href="">Ver mapa</a>
             <a href="">
                 <img class="busqueda" src="./img/iconLocate.webp" alt="icono de busqueda">
             </a>
-            <a class="selectores" href="">Favoritos</a>
+            <a class="favoritos" href="">Favoritos</a>
         </section>
-        <section class="contenido">
-            <section>
-                <img class="imagenContenido" src="./img/apartament1.webp" alt="imagen del apartamento">
-                <section> 
-                    <p>USD $1000.00</p>
-                    <P>Quito Tenis, Departamento, 180m2,
-                        5 habitaciones, 3 baños</P>
-                        <input type="radio">
-                    <p>Departamento ubicado en Quito Tenis en la calle C, cuenta con:
-                        áreas comunales y balcón</p>
-                </section>
+
+        <section class="apartamentos">
+            <section class="contenido">
+                <img class="imgApart" src="./img/apartament1.webp" alt="foto del apartamento">
+                <p class="valor">USD $1000.00</p>
+                <P class="datosApart">Quito Tenis, Departamento, 180m2,
+                    5 habitaciones, 3 baños</P>
+                <button class="fav">
+                    <span class="material-symbols-outlined">star</span>
+                </button>
+                
             </section>
+            
         </section>
     </main>
 </body>
