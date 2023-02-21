@@ -6,8 +6,57 @@ header .botones-inicio{
 
 .casita-boton{
     margin-right: 30px;
+    background-color: rgb(200, 200, 200);
 }
 
 .btns-inicio{
     margin-right: 30px;
+    background-color: rgb(200, 200, 200);
+}
+
+
+.barra-buscarfavoritos{
+    display: inline-block;
+
+}
+
+.buscar-boton{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    background-color: rgb(200, 200, 200);
+}
+
+.direccion-buscar{
+    display: inline-block;
+    width: auto;
+    height: 18px;
+    background-color: rgb(166, 166, 166);
+    margin-right: 10px;
+    background-color: rgb(200, 200, 200);
+}
+
+.mapa-boton{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    background-color: rgb(200, 200, 200);
+}
+
+.icono-mapa-boton{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    background-color: rgb(200, 200, 200);
+}
+
+.favoritos-boton{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    background-color: rgb(200, 200, 200);
 }
