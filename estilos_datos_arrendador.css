@@ -17,6 +17,7 @@ nav .botones-inicio{
 .indicador-perfil{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 header.indicador-perfil h2{
@@ -26,6 +27,7 @@ header.indicador-perfil h2{
     border: 1px solid  black;
     font-style: bold;
     background-color: aquamarine;
+    
 }
 
 .container{
