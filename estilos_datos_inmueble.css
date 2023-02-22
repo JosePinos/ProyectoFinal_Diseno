@@ -1,0 +1,78 @@
+nav .botones-inicio{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.casita-boton{
+    margin-right: 30px;
+    
+}
+
+.btns-inicio{
+    margin-right: 30px;
+}
+
+.indicador-datos-inmueble{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+header.indicador-datos-inmueble h2{
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.descrip_inmueble{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 20px 0px;
+}
+
+.rooms_bathrooms{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.areasComun_inmueble{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.gardens_price{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main.container div.descrip_inmueble p{
+    font-weight: bold;
+}
+
+
+
+main.container div.areasComun_inmueble p{
+    font-weight: bold;
+}
+
+.d1,
+.d2{
+    font-weight: bold;
+}
+
+
