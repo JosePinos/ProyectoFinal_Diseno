@@ -1,0 +1,30 @@
+nav .botones-inicio{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.casita-boton{
+    margin-right: 30px;
+    
+}
+
+.btns-inicio{
+    margin-right: 30px;
+}
+
+.indicador-mapa-inmueble{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+header.indicador-maps-inmueble h2{
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
