@@ -89,6 +89,8 @@ input{
 }
 
 .apartamentos{
+    display: flex;
+    flex-direction: column;
     max-width: 100%;
     background-color: #D9D9D9;
     padding: 50px;
@@ -96,8 +98,6 @@ input{
 }
 
 .contenido{
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 3px 6px;
     gap: 50px;
@@ -120,7 +120,7 @@ input{
     margin: center;
     border-radius: 8px;
     max-height: 100%;
-    width: 100;
+    width: 100%;
 }
 
 .fav{
@@ -130,13 +130,13 @@ input{
     max-height: 100%;
 }
 
-.texto{
-    display: flex;
-    flex-direction: column;
+.parrafo{
     background-color: white;
+    border-radius: 8px;
     max-width: 100%;
     max-height: 100%;
 }
+
 @media (min-width: 900px) {
     body{
         grid-template: 
