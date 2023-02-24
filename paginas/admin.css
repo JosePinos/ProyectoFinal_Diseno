@@ -100,7 +100,14 @@ input{
 .contenido{
     align-items: flex-start;
     padding: 3px 6px;
-    gap: 50px;
+    display: grid;
+
+    column-gap: 5px;
+    /*Con esto se colocan los elementos de acuerdo a la necesidad
+    es decir, llena lo que sobre*/
+    /* row-gap: 15px; Con esto le damos un espaciado
+    column-gap: 15px;  de forma individual*/
+    
 }
 
 .imgApart{
@@ -112,12 +119,12 @@ input{
     background-color: white;
     text-align: center;
     border-radius: 8px;
-    width: 270px;
+    width: 25%;
 }
 
 .datosApart{
     background-color: white;
-    margin: center;
+    margin-left: 5px;
     border-radius: 8px;
     max-height: 100%;
     width: 100%;
