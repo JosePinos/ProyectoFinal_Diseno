@@ -15,17 +15,20 @@ header .botones-inicio{
 }
 
 
+
 .barra-buscarfavoritos{
     display: inline-block;
     width: 100%;
 }
+
+
 
 .buscar-boton{
     display: inline-block;
     width: auto;
     height: auto;
     margin-right: 20px;
-    
+    background-color: aquamarine;
 }
 
 .direccion-buscar{
@@ -43,7 +46,7 @@ header .botones-inicio{
     height: auto;
     margin-left: 40px;
     margin-right: 40px;
-    
+    background-color: aquamarine;
 }
 
 .icono-mapa-boton{
@@ -51,7 +54,7 @@ header .botones-inicio{
     width: auto;
     height: auto;
     margin-right: 20px;
-    
+    background-color: aquamarine;
 }
 
 .favoritos-boton{
@@ -107,7 +110,19 @@ header .botones-inicio{
 }
 
 
+.foot-datos{
+    gap:60px;
+}
 
+.foot-datos span{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.foot-datos img{
+    background-color: white;
+}
 
 .public2{
     margin-bottom: 30px;
