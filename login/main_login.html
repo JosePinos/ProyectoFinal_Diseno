@@ -9,35 +9,45 @@
 </head>
 <body>
     <main clas>
-        <section class="container-main">
-            <div class="main-head">
-                <h1>BIENVENIDOS</h1>
-            </div>
-            <div class="main-inputs">
-                <div>
-                    <input type="text">
-                    <p>usuario</p>
+        <section class="backgroud-main ">
+            <div class="container-main">
+                <div class="main-head">
+                    <h1>BIENVENIDOS</h1>
                 </div>
-                <div>
-                    <input type="text">
-                    <p>contraseña</p>
+                <div class="main-inputs">
+                    <div class="input-user">
+                        <input type="text">
+                        <p>Usuario</p>
+                    </div>
+                    <div class="input-password">
+                        <input type="text">
+                        <p>Contraseña</p>
+                    </div>
+                </div>
+                <div class="main-buttons">
+                    <a href="" class="button-iniciar">
+                        <button>Iniciar Sesion</button>
+                    </a>
+                    <a href="" class="button-crear">
+                        <button>Crear Cuenta</button>
+                    </a>
+                </div>
+                <div class="main-users">
+                    <div class="user-label">
+                        <label for="users">
+                            Tipo de Usuario
+                        </label>
+                    </div>
+                    <div class="user-choose">
+                        <select name="usuarios" id="users">
+                            <option value="Admin">Administrador</option>
+                            <option value="Arredndador">Arredndador</option>
+                            <option value="Arrendatario">Arrendatario</option>
+                        </select>
+                    </div>
                 </div>
             </div>
-            <div class="main-buttons">
-                <a href="">
-                    <button>Iniciar Sesion</button>
-                </a>
-                <a href="">
-                    <button>Crear Cuenta</button>
-                </a>
-            </div>
-            <div class="main-users">
-                <select name="usuarios" id="users">
-                    <option value="Admin">Administrador</option>
-                    <option value="Arredndador">Arredndador</option>
-                    <option value="Arrendatario">Arrendatario</option>
-                </select>
-            </div>
+            
         </section>
     </main>
 </body>
