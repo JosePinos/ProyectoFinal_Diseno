@@ -18,6 +18,8 @@ body{
 }
 .backgroud-main{
     position: relative;
+    justify-content: center;
+    align-items: center;
     
 }
 .container-main{
