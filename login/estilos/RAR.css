@@ -9,17 +9,13 @@ body{
     /*background-color: bisque;*/
     font-family: "Inter,serif", sans-serif;
 }
-main{
-    text-align: center;
-    
-}
-.container-register{
+.register-container{
     width: 100%;
     margin: 0 auto;
     background: rgba(252, 252, 252, 0.6);
     display: flex;
     border-radius: 25px;
-    max-width: 400px;
+    max-width: 500px;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
@@ -27,16 +23,16 @@ main{
     align-items: center;
 }
 .register-header{
-    padding: 12px;
+    padding: 15px;
 }
 .register-header > h1{
     font-style: normal;
-    font-weight: 200;
+    font-weight: 100;
 }
-.register-content{
+.register-campos{
     padding: 8px;
 }
-.inputs-spaces{
+.inputs-registros{
     padding: 15px;
     display: flex;
     flex-wrap: nowrap;
@@ -44,7 +40,7 @@ main{
     justify-content: space-between;
     gap: 25px;
 }
-.inputs-spaces input{
+.inputs-registros input{
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
@@ -56,12 +52,25 @@ main{
     max-height: 45px;
     border: none;
 }
-.inputs-spaces > label{
+.inputs-registros > label{
     background: #D27474;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     padding: 8px;
     color: #FFFFFF;
+    padding-right: 15px;
+}
+.inputs-registros:nth-child(1) > label{
+    padding-right: 5.8rem;
+}
+.inputs-registros:nth-child(2) > label{
+    padding-right: 6.8rem;
+}
+.inputs-registros:nth-child(3) > label{
+    padding-right: 3.2rem;
+}
+.inputs-registros:nth-child(5) > label{
+    padding-right: 3.9rem;
 }
 button{
     background-color: transparent;
@@ -100,7 +109,7 @@ button{
     opacity: 1;
 }
 select{
-    width: 100%;
+    width: 60%;
     border: none;
     border-radius: 8px;
     padding: 5px;
