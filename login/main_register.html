@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./estilos/MR.css">
 </head>
 <body>
+    <script src="./script/scriptRG.js">
+        </script>
     <main>
         <section class="container-register">
             <div class="register-header">
@@ -39,8 +41,9 @@
                         Cuenta
                     </label>
                     <select name="usuarios" id="users-register">
-                        <option value="Arredndador">Arredndador</option>
-                        <option value="Arrendatario">Arrendatario</option>
+                        <option value="">Seleccione un usuario</option>
+                        <option value="./register_arrendador.html">Arrendador</option>
+                        <option value="./register_arrendatario.html">Arrendatario</option>
                     </select>
                 </div>
                 <div class="inputs-spaces">
@@ -52,16 +55,15 @@
             </div>
             <div class="register-buttons">
                 <div>
-                    <a href="" class="return">
+                    <a href="./main_login.html" class="return">
                         <button>Atras</button>
                     </a>
                 </div>
                 <div>
-                    <a href="" class="next">
+                    <a onclick="redirectToPage()" class="next">
                         <button>Siguiente</button>
                     </a>
                 </div>
-                
             </div>
         </section>
     </main>
