@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./estilos/ML.css">
 </head>
 <body>
+    <script src="./script/scriptML.js"></script>
     <main>
         <section class="backgroud-main ">
             <div class="container-main">
@@ -25,7 +26,7 @@
                     </div>
                 </div>
                 <div class="main-buttons">
-                    <a href="" class="button-iniciar">
+                    <a onclick="redirectToPage()" class="button-iniciar">
                         <button>Iniciar Sesion</button>
                     </a>
                     <a href="./main_register.html" class="button-crear">
@@ -39,10 +40,11 @@
                         </label>
                     </div>
                     <div class="user-choose">
-                        <select name="usuarios" id="users">     
-                            <option value="Admin">Administrador</option>
-                            <option value="Arredndador">Arredndador</option>
-                            <option value="Arrendatario">Arrendatario</option>
+                        <select name="usuarios" id="users">
+                            <option value="">Selecciona una opcion</option>    
+                            <option value="../Administrador/mainAdmin.html">Administrador</option>
+                            <option value="../Principal_arrendador.html">Arrendador</option>
+                            <option value="../Arrendatario/mainArrendatario.html">Arrendatario</option>
                         </select>
                     </div>
                 </div>
