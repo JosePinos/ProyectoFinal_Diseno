@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./estilos/MR.css">
+</head>
+<body>
+    <script src="./script/scriptRG.js">
+        </script>
+    <main>
+        <section class="container-register">
+            <div class="register-header">
+                <h1>
+                    REGISTRARSE
+                </h1>
+            </div>
+            <div class="register-content">
+                <div class="inputs-spaces">
+                    <label for="nombre">
+                        Nombre
+                    </label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="inputs-spaces">
+                    <label for="Apellido">
+                        Apellido
+                    </label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="inputs-spaces">
+                    <label for="Telefono">
+                        Telefono
+                    </label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="inputs-spaces">
+                    <label for="Tipo de Cuenta">
+                        Cuenta
+                    </label>
+                    <select name="usuarios" id="users-register">
+                        <option value="">Seleccione un usuario</option>
+                        <option value="./register_arrendador.html">Arrendador</option>
+                        <option value="./register_arrendatario.html">Arrendatario</option>
+                    </select>
+                </div>
+                <div class="inputs-spaces">
+                    <label for="Correo">
+                        Correo
+                    </label>
+                    <input type="text" name="" id="">
+                </div>
+            </div>
+            <div class="register-buttons">
+                <div>
+                    <a href="./main_login.html" class="return">
+                        <button>Atras</button>
+                    </a>
+                </div>
+                <div>
+                    <a onclick="redirectToPage()" class="next">
+                        <button>Siguiente</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

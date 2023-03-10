@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    border: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./assest/fondo.jpg");
+    background-repeat: no-repeat;
+    /*background-color: bisque;*/
+    font-family: "Inter,serif", sans-serif;
+}
+.register-container{
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(252, 252, 252, 0.6);
+    display: flex;
+    border-radius: 25px;
+    max-width: 500px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.register-header{
+    padding: 15px;
+}
+.register-header > h1{
+    font-style: normal;
+    font-weight: 100;
+}
+.register-campos{
+    padding: 8px;
+}
+.input-campos{
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.input-campos:nth-child(1) input{
+    background: none;
+    box-shadow: none;
+}
+.input-campos input{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 250px;
+    height: 30px;
+    min-height: 30px;
+    min-width: 250px;
+    max-width: 350px;
+    max-height: 45px;
+    border: none;
+}
+.input-campos > label{
+    background: #D27474;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 8px;
+    color: #FFFFFF;
+    padding-right: 15px;
+}
+.input-campos:nth-child(1) > label{
+    padding-right: 25px;
+}
+.input-campos:nth-child(2) > label{
+    padding-right: 45px;
+}
+.campos-redesSociales{
+    display: flex;
+    gap: 35px;
+    padding: 15px;
+}
+button{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-weight: 900;
+    opacity: 1;
+    width: 100px;
+    font-style: normal;
+    font-weight: 200;
+    
+}
+.register-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 18px;
+    padding: 28px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.register-buttons .next{
+    background-color: rgba(109, 190, 132, 1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 20rem;
+    padding: 8px;
+    opacity: 1;
+}
+.register-buttons .return{
+    background-color: rgb(231, 76, 76);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 20rem;
+    padding: 8px;
+    opacity: 1;
+}
+.register-buttons .return:hover{
+    background-color: rgb(254, 0, 0);
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.register-buttons .next:hover{
+    background-color: rgb(101, 218, 134);
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: none;
+}

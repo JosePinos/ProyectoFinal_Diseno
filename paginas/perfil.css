@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.casita-boton{
+    margin-right: 30px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.btns-inicio{
+    margin-right: 30px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.botones_perfil{
+    background-color: #B8F9FD;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+    width: 50%;
+    margin-left: 400px;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-row-start: initial;
+}
+
+.campos{
+    margin-left: 50px;
+}
+
+.datos_campos{
+    margin-left: 10px;
+}
