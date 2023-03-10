@@ -1,0 +1,41 @@
+nav .botones-inicio{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.casita-boton{
+    margin-right: 30px;
+    
+}
+
+.btns-inicio{
+    margin-right: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-nombre p{
+    display: inline-block;
+    margin-right: 40px;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    font-size: 30px;
+    width: 100px;
+}
+
+.botones-operaciones{
+    display: inline-block;
+    
+    
+}
+
+.operacion{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
