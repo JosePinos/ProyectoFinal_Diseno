@@ -111,3 +111,15 @@ button{
     padding: 8px;
     opacity: 1;
 }
+.register-buttons .return:hover{
+    background-color: rgb(254, 0, 0);
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.register-buttons .next:hover{
+    background-color: rgb(101, 218, 134);
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: none;
+}
