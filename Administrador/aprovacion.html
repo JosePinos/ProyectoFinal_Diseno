@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./admin.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Ventana principal ADMINS</title>
+    <script src="./index.js"></script>
+    <title>Aceptación / Rechazo</title>
 </head>
 <body>
     
-
     <header>
         <div class="botones-inicio">
-            <a class="casita-boton" href="">
+            <a class="casita-boton" href="./mainAdmin.html">
                 <img src="./img/home.webp" alt="Inicio" width="35px" height="35px">
             </a>
-            <a class="btns-inicio" href="">Nosotros</a>
+            <a class="btns-inicio" href="./nosotros.html">Nosotros</a>
         </div>
     </header>
 
@@ -25,10 +25,9 @@
     <main>
 
         <div>
-            <a class="botones_perfil" href="">Mi perfil</a>
-            <a class="botones_perfil" href="">Solicitudes</a>
+            <a class="botones_perfil" href="./perfil-admin.html">Mi perfil</a>
+            <a class="botones_perfil" href="./aprovacion.html">Solicitudes</a>
         </div>
-
 
         <section class="publicaciones">
             <div class="public public1">
@@ -65,11 +64,29 @@
                         <div class="col-xs-2 col-sm-1"><div class="numeros">5 </div></div>
                     </div>
                     <br>
+
                     <div class="row">
                         <div class="col-xs-4 col-sm-3"><div class="valor2"> <img src="./img/banio.png" alt="cuartos" width="40px" height="40px"> </div> </div>
                         <div class="col-xs-4"><div class="numeros">2 </div></div>
-                        <a class="aprovar" href="">Aceptar</a>
-                        <a class="rechazar" href="">Rechazar</a>
+
+                        <div class="ventana_aceptar" id="aceptacion">
+
+                            <div id="cerrar">
+                                <a href="javascript:cerrar_aceptacion()"><img src="./img/cancelar.png" alt="icono para cerrar"></a>
+                            </div>
+                            <h2 class="texto">Has aceptado esta publicación</h2>
+                            
+                        </div>
+                
+                        <div class="ventana_rechazar" id="rechazo">
+                            <div id="cerrar">
+                                <a href="javascript:cerrar_rechazo()"><img src="./img/cancelar.png" alt="icono para cerrar"></a>
+                            </div>
+                            <h2 class="texto">Has rechazado esta publicación</h2>
+                        </div>
+
+                        <a class="aprovar" href="javascript:abrir_aceptacion()">Aceptar</a>
+                        <a class="rechazar" href="javascript:abrir_rechazo()">Rechazar</a>
                     </div>
                 </div><!--FIN DE DATOS PUBLIC-->
 
@@ -114,11 +131,36 @@
                         <div class="col-xs-2 col-sm-1"><div class="numeros">5 </div></div>
                     </div>
                     <br>
+
+                    <div class="ventana_aceptar">
+                        <p>Has aceptado esta publicación</p>
+                    </div>
+            
+                    <div class="ventana_rechazar">
+                        <p>Has rechazado esta publicación</p>
+                    </div>
+
                     <div class="row">
                         <div class="col-xs-4 col-sm-3"><div class="valor2"> <img src="./img/banio.png" alt="cuartos" width="40px" height="40px"> </div> </div>
                         <div class="col-xs-4"><div class="numeros">2 </div></div>
-                        <a class="aprovar" href="">Aceptar</a>
-                        <a class="rechazar" href="">Rechazar</a>
+                        <div class="ventana_aceptar" id="aceptacion">
+
+                            <div id="cerrar">
+                                <a href="javascript:cerrar_aceptacion()"><img src="./img/cancelar.png" alt="icono para cerrar"></a>
+                            </div>
+                            <h2 class="texto">Has aceptado esta publicación</h2>
+                            
+                        </div>
+                
+                        <div class="ventana_rechazar" id="rechazo">
+                            <div id="cerrar">
+                                <a href="javascript:cerrar_rechazo()"><img src="./img/cancelar.png" alt="icono para cerrar"></a>
+                            </div>
+                            <h2 class="texto">Has rechazado esta publicación</h2>
+                        </div>
+
+                        <a class="aprovar" href="javascript:abrir_aceptacion()">Aceptar</a>
+                        <a class="rechazar" href="javascript:abrir_rechazo()">Rechazar</a>
                     </div>
                 </div><!--FIN DE DATOS PUBLIC-->
 
@@ -163,11 +205,36 @@
                         <div class="col-xs-2 col-sm-1"><div class="numeros">5 </div></div>
                     </div>
                     <br>
+
+                    <div class="ventana_aceptar">
+                        <p>Has aceptado esta publicación</p>
+                    </div>
+            
+                    <div class="ventana_rechazar">
+                        <p>Has rechazado esta publicación</p>
+                    </div>
+
                     <div class="row">
                         <div class="col-xs-4 col-sm-3"><div class="valor2"> <img src="./img/banio.png" alt="cuartos" width="40px" height="40px"> </div> </div>
                         <div class="col-xs-4"><div class="numeros">2 </div></div>
-                        <a class="aprovar" href="">Aceptar</a>
-                        <a class="rechazar" href="">Rechazar</a>
+                        <div class="ventana_aceptar" id="aceptacion">
+
+                            <div id="cerrar">
+                                <a href="javascript:cerrar_aceptacion()"><img src="./img/cancelar.png" alt="icono para cerrar"></a>
+                            </div>
+                            <h2 class="texto">Has aceptado esta publicación</h2>
+                            
+                        </div>
+                
+                        <div class="ventana_rechazar" id="rechazo">
+                            <div id="cerrar">
+                                <a href="javascript:cerrar_rechazo()"><img src="./img/cancelar.png" alt="icono para cerrar"></a>
+                            </div>
+                            <h2 class="texto">Has rechazado esta publicación</h2>
+                        </div>
+
+                        <a class="aprovar" href="javascript:abrir_aceptacion()">Aceptar</a>
+                        <a class="rechazar" href="javascript:abrir_rechazo()">Rechazar</a>
                     </div>
                 </div><!--FIN DE DATOS PUBLIC-->
 
@@ -215,11 +282,36 @@
                         <div class="col-xs-2 col-sm-1"><div class="numeros">5 </div></div>
                     </div>
                     <br>
+
+                    <div class="ventana_aceptar">
+                        <p>Has aceptado esta publicación</p>
+                    </div>
+            
+                    <div class="ventana_rechazar">
+                        <p>Has rechazado esta publicación</p>
+                    </div>
+
                     <div class="row">
                         <div class="col-xs-4 col-sm-3"><div class="valor2"> <img src="./img/banio.png" alt="cuartos" width="40px" height="40px"> </div> </div>
                         <div class="col-xs-4"><div class="numeros">2 </div></div>
-                        <a class="aprovar" href="">Aceptar</a>
-                        <a class="rechazar" href="">Rechazar</a>
+                        <div class="ventana_aceptar" id="aceptacion">
+
+                            <div id="cerrar">
+                                <a href="javascript:cerrar_aceptacion()"><img src="./img/cancelar.png" alt="icono para cerrar"></a>
+                            </div>
+                            <h2 class="texto">Has aceptado esta publicación</h2>
+                            
+                        </div>
+                
+                        <div class="ventana_rechazar" id="rechazo">
+                            <div id="cerrar">
+                                <a href="javascript:cerrar_rechazo()"><img src="./img/cancelar.png" alt="icono para cerrar"></a>
+                            </div>
+                            <h2 class="texto">Has rechazado esta publicación</h2>
+                        </div>
+
+                        <a class="aprovar" href="javascript:abrir_aceptacion()">Aceptar</a>
+                        <a class="rechazar" href="javascript:abrir_rechazo()">Rechazar</a>
                     </div>
                 </div><!--FIN DE DATOS PUBLIC-->
             </div><!--FIN DE LA PUBLICACIÓN 4-->

@@ -234,3 +234,63 @@ nav.mainNav {
     font-size: 25px;
     border-radius: 8px;
 }
+
+.ventana_aceptar{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: skyblue;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 400px;
+    max-width: 90%;
+    border-radius: 20px;
+}
+
+.ventana_rechazar{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: yellow;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 400px;
+    max-width: 90%;
+    border-radius: 20px;
+}
+
+#cerrar{
+    position: absolute;
+    right: 5px;
+}
+
+.mapa{
+    text-align: center;
+}
+
+.contenedor_mapa{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.historia{
+    display: inline-block;
+    background-color: #B8F9FD;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 43%;
+}
+
+.amigoBuho{
+    text-align: center;
+    color: blue;
+}
