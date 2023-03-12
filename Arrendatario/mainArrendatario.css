@@ -429,3 +429,17 @@ align-items: center;
     left: 60px;
     top: 842px;  
 }
+.fav.favorited {
+    background-color: yellow;
+}
+.cambiar-estrella {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 10px;
+  }
+  
+  .cambiar-estrella.amarillo {
+    background-color: yellow;
+  }
+  
